@@ -38,9 +38,8 @@
 | **Bias Detection Rate (%)** | 60 | 65 | 70 | 75 | **98** | **+23%** |
 | **Adversarial Robustness (%)** | 45 | 50 | 60 | 70 | **92** | **+22%** |
 | **Hardware Compatibility** | ❌ High-end only | ❌ High-end only | ❌ High-end only | ❌ High-end only | ✅ **T4 GPU Ready** | **Universal** |
-Detailed Benchmark Results
+## Detailed Benchmark Results
 Training Efficiency Metrics
-text
 | Framework | Model Size | Dataset | Training Time | Peak Memory | Final Accuracy |
 |-----------|------------|---------|---------------|-------------|----------------|
 | **Baseline PyTorch** | 7B params | CommonCrawl | 1,200 hours | 120 GB | 86.5% |
@@ -49,8 +48,7 @@ text
 | **FairScale FSDP** | 7B params | CommonCrawl | 580 hours | 68 GB | 90.5% |
 | **Megatron-LM** | 7B params | CommonCrawl | 420 hours | 62 GB | 91.2% |
 | **🚀 SAFESCALE-AMMT** | 7B params | CommonCrawl | **28 hours** | **18 GB** | **94.3%** |
-Safety & Robustness Comparison
-text
+## Safety & Robustness Comparison
 | Safety Metric | Traditional | State-of-Art | SAFESCALE-AMMT | Improvement |
 |---------------|-------------|--------------|----------------|-------------|
 | **Bias Detection** | Manual testing | 70% automated | **98% automated** | **40% better** |
@@ -58,8 +56,7 @@ text
 | **Fairness Compliance** | Manual auditing | 75% compliant | **99.2% compliant** | **32% better** |
 | **Constitutional AI Integration** | ❌ Not available | ❌ Limited | ✅ **Native support** | **New capability** |
 | **Real-time Monitoring** | ❌ Post-training only | ⚠️ Batch monitoring | ✅ **Live monitoring** | **Continuous** |
-Resource Utilization Benchmark
-text
+## Resource Utilization Benchmark
 | Resource Type | Traditional Training | Modern Frameworks | SAFESCALE-AMMT | Reduction |
 |---------------|---------------------|-------------------|----------------|-----------|
 | **GPU Memory** | 100 GB | 60-80 GB | **20 GB** | **75-80%** |
