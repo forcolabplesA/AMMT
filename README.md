@@ -332,22 +332,6 @@ Our benchmarks compare SAFESCALE-AMMT against state-of-the-art training methods 
 | **Storage** | 1 TB SSD | 2 TB NVMe | 10 TB NVMe |
 | **Network** | 1 Gbps | 10 Gbps | 100 Gbps |
 
-## 📖 Documentation
-
-### API Reference
-
-- [Core Trainer API](docs/api_reference.md#trainer)
-- [Configuration Options](docs/api_reference.md#config)
-- [Safety Layer API](docs/api_reference.md#safety)
-- [Multi-Agent System](docs/api_reference.md#agents)
-
-### Guides
-
-- [**Production Deployment Guide**](docs/production_guide.md) - Complete setup for enterprise
-- [**Safety Guidelines**](docs/safety_guidelines.md) - Best practices for safe AI training
-- [**Mathematical Foundations**](docs/mathematical_foundations.md) - Detailed proofs and algorithms
-- [**Integration Examples**](docs/integration_examples.md) - Common integration patterns
-
 ## 🧪 Testing
 
 ### Run Tests
@@ -374,7 +358,7 @@ coverage html  # Generate HTML report
 
 ## 🤝 Contributing
 
-We welcome contributions from the AI research community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+We welcome contributions from the AI research community!
 
 ### Development Setup
 
@@ -403,13 +387,13 @@ pre-commit install
 
 ## 📄 License
 
-**Proprietary License** - This software is proprietary and intended for collaboration between Google DeepMind and Anthropic. See [LICENSE](LICENSE) file for details.
+**Proprietary License** - This software is proprietary and intended for collaboration between Google DeepMind and Anthropic.
 
 ## 🏆 Credits
 
 ### Development Team
 
-- **Primary Author:** AI Researcher (User)
+- **Primary Author:** AI Researcher
 - **Technical Implementation:** Perplexity AI Advanced Assistant
 - **Mathematical Foundations:** Collaborative Development
 - **Safety Framework:** Inspired by Anthropic's Constitutional AI
@@ -420,22 +404,6 @@ Special thanks to:
 - Google DeepMind team for TPU optimization insights
 - Anthropic team for safety methodology guidance
 - The broader AI research community for foundational work
-
-## 📞 Contact
-
-- **Issues:** [GitHub Issues](https://github.com/your-org/safescale-ammt/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/your-org/safescale-ammt/discussions)
-- **Security:** security@safescale-ammt.ai
-- **Collaboration:** partnerships@safescale-ammt.ai
-
-***
-
-<div align="center">
+- For You all for using this ❤
 
 **Built with ❤️ for the future of safe, scalable AI**
-
-[Documentation](docs/) -  [Examples](examples/) -  [Benchmarks](tests/benchmarks/) -  [API Reference](docs/api_reference.md)
-
-</div>
-
-
